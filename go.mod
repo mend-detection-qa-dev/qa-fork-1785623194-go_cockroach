@@ -555,7 +555,7 @@ replace github.com/olekukonko/tablewriter => github.com/cockroachdb/tablewriter 
 
 replace github.com/abourget/teamcity => github.com/cockroachdb/teamcity v0.0.0-20180905144921-8ca25c33eb11
 
-replace gopkg.in/yaml.v2 => github.com/cockroachdb/yaml v0.0.0-20210825132133-2d6955c8edbc
+replace gopkg.in/yaml.v2 => github.com/cockroachdb/yaml 5420a8b6744d
 
 replace github.com/docker/docker => github.com/moby/moby v25.0.14+incompatible
 
