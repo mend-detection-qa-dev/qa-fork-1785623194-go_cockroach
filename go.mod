@@ -39,7 +39,7 @@ require (
 	github.com/google/uuid v1.6.0
 	google.golang.org/api v0.126.0
 	google.golang.org/genproto v0.0.0-20230530153820-e85fd2cbaebc
-	google.golang.org/grpc v1.57.2
+	google.golang.org/grpc v1.79.3
 	google.golang.org/protobuf v1.35.1
 	storj.io/drpc v0.0.34
 )
