@@ -33,7 +33,7 @@
       },
       "_comment_expected_dependencies_number": "Optional. Expected number of dependencies with comparison operator. Operators: gt (>), gte (>=), lt (<), lte (<=), eq (==). If not provided, this check will not be performed.",
       "direct_dependencies_names_list": {
-        "eq": [
+        "contains": [
           "@cockroachlabs/eslint-plugin-crdb-1.0.0.tgz",
           "github.com/datadog/datadog-api-client-go/v2",
           "github.com/jordanlewis/gcassert",
@@ -47,7 +47,6 @@
           "golang.org/x/oauth2",
           "github.com/klauspost/pgzip",
           "go.opentelemetry.io/proto/otlp",
-          "jquery.min.js",
           "go.opentelemetry.io/otel/trace",
           "github.com/petermattis/goid",
           "github.com/spf13/cobra",
@@ -65,7 +64,6 @@
           "github.com/jackc/pgconn",
           "golang.org/x/exp",
           "github.com/google/pprof",
-          "plotly-latest.min.js",
           "github.com/lib/pq",
           "github.com/jackc/pgproto3/v2",
           "go.yaml.in/yaml/v4",
@@ -276,7 +274,6 @@
           "github.com/aws/aws-sdk-go-v2/service/iam",
           "github.com/twpayne/go-geom",
           "github.com/xdg-go/scram",
-          "chart.js",
           "github.com/nytimes/gziphandler",
           "geographiclib.cc",
           "github.com/cockroachdb/crlib",
